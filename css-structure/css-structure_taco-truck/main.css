@@ -1,0 +1,17 @@
+/* --main-bg: #ffebcd;
+--main-text: #fff;
+--main-title-bg: #663399; */
+
+h2 {
+  background-color: var(--main-title-bg);
+  width: fit-content;
+  padding: 8px;
+  margin-top: 0px;
+}
+
+.cardslist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
